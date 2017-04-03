@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: nr-demo-imamura
+  host: nr-demo-imamura
+  disk_quota: 1024M
+  services:
+  - Conversation-p9
+  - nr-demo-imamura-cloudantNoSQLDB
